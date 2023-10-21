@@ -9,6 +9,9 @@ public class Activity {
     
   }
   
+  /**
+   * Construtor.
+   */
   public Activity(String name, int weight, int grade) {
     this.name = name;
     this.weight = weight;
@@ -18,18 +21,23 @@ public class Activity {
   public String getName() {
     return name;
   }
+  
   public void setName(String name) {
     this.name = name;
   }
+  
   public int getWeight() {
     return weight;
   }
+  
   public void setWeight(int weight) {
     this.weight = weight;
   }
+  
   public int getGrade() {
     return grade;
   }
+  
   public void setGrade(int grade) {
     this.grade = grade;
   }
